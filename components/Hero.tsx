@@ -21,25 +21,25 @@ const Hero = () => {
             className="text-center lg:text-left relative z-20"
           >
             <h1 className="text-6xl md:text-8xl lg:text-9xl leading-[0.9] text-[#23120B] uppercase tracking-tighter font-display mb-8">
-              Ulang
+              Made
               <br />
-              Tanpa
+              Fresh
               <br />
-              <span className="text-white drop-shadow-[4px_4px_0px_#23120B] stroke-black">Penyesalan.</span>
+              <span className="text-white drop-shadow-[4px_4px_0px_#23120B] stroke-black">Devoured Fast.</span>
             </h1>
 
             <div className="flex flex-col md:flex-row gap-4 justify-center lg:justify-start">
               <button className="group flex items-center justify-center gap-2 bg-[#23120B] text-white px-8 py-4 rounded-full font-bold text-xl hover:scale-105 transition-transform shadow-[4px_4px_0px_white]">
-                Pesan Sekarang
+                Order Now
                 <span className="group-hover:translate-x-1 transition-transform">😋</span>
               </button>
 
               <button className="flex items-center justify-center gap-2 bg-white text-black px-6 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors border-2 border-black shadow-[4px_4px_0px_black]">
-                Dapatkan PERCUMA
+                Get It Free
                 <ArrowRight className="w-5 h-5" />
               </button>
             </div>
-            <p className="text-xs font-bold mt-3 opacity-70 ml-2 text-center lg:text-left">*Tertakluk kepada terma pesanan pertama</p>
+            <p className="text-xs font-bold mt-3 opacity-70 ml-2 text-center lg:text-left">*Terms apply on first orders</p>
           </motion.div>
 
           {/* Right Content - Pizza Image */}
@@ -65,7 +65,7 @@ const Hero = () => {
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -top-10 -right-4 bg-white text-black font-bold px-4 py-2 rounded-lg border-2 border-black shadow-[4px_4px_0px_black] z-20 rotate-12"
               >
-                Panas & Segar! 🔥
+                Fresh Out the Oven! 🔥
               </motion.div>
             </motion.div>
           </div>
@@ -82,11 +82,11 @@ const Hero = () => {
         >
           {[...Array(10)].map((_, i) => (
             <div key={i} className="flex items-center gap-8 mx-4">
-              <span className="text-white font-display text-2xl">BAHAN SEGAR</span>
+              <span className="text-white font-display text-2xl">FRESH INGREDIENTS</span>
               <span className="text-[#FF9F1C]">✦</span>
-              <span className="text-white font-display text-2xl">PENGHANTARAN PANAS</span>
+              <span className="text-white font-display text-2xl">PIPING HOT</span>
               <span className="text-[#FF9F1C]">✦</span>
-              <span className="text-white font-display text-2xl">KERAK TERBAIK</span>
+              <span className="text-white font-display text-2xl">PERFECT CRUST</span>
               <span className="text-[#FF9F1C]">✦</span>
             </div>
           ))}

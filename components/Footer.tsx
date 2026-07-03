@@ -14,8 +14,8 @@ const Footer = () => {
                 >
                     {[...Array(10)].map((_, i) => (
                         <div key={i} className="flex items-center gap-12 mx-8">
-                            <span className="text-4xl md:text-6xl font-display text-[#FF9F1C]">PESAN - MISI</span>
-                            <span className="text-4xl md:text-6xl font-display text-white stroke-text">PESAN - GRABFOOD</span>
+                            <span className="text-4xl md:text-6xl font-display text-[#FF9F1C]">ORDER - MISSION</span>
+                            <span className="text-4xl md:text-6xl font-display text-white stroke-text">ORDER - JUST EAT</span>
                         </div>
                     ))}
                 </motion.div>
@@ -32,23 +32,23 @@ const Footer = () => {
                                 className="w-12 h-12 invert brightness-0"
                             />
                         </div>
-                        <h3 className="text-3xl font-display mb-4">Rumah Pizza</h3>
-                        <p className="opacity-70 max-w-xs">Sedia untuk Nikmati Sepotong Kebahagiaan? Menyajikan yang terbaik sejak 2010.</p>
+                        <h3 className="text-3xl font-display mb-4">The Pizza Home</h3>
+                        <p className="opacity-70 max-w-xs">Ready to Enjoy a Slice of Happiness? Serving the best since 2010.</p>
                     </div>
 
                     {/* Locations */}
                     <div className="flex flex-col items-center">
-                        <h4 className="text-2xl font-display text-[#FF9F1C] mb-6">Lokasi Kami</h4>
+                        <h4 className="text-2xl font-display text-[#FF9F1C] mb-6">Our Locations</h4>
                         <div className="space-y-6">
                             <div className="bg-white/5 p-4 rounded-xl border border-white/10 w-full max-w-xs hover:bg-white/10 transition-colors cursor-pointer">
-                                <h5 className="font-bold flex items-center justify-center gap-2 mb-2"><MapPin className="w-4 h-4 text-[#FF9F1C]" /> Kedai Pizza Pusat Bandar</h5>
-                                <p className="text-sm opacity-60">7428 Sunset Blvd, Los Angeles</p>
-                                <button className="text-[#FF9F1C] text-sm mt-2 underline">Lihat di Peta</button>
+                                <h5 className="font-bold flex items-center justify-center gap-2 mb-2"><MapPin className="w-4 h-4 text-[#FF9F1C]" /> City Centre</h5>
+                                <p className="text-sm opacity-60">123 Deansgate, Manchester M3 2BW</p>
+                                <button className="text-[#FF9F1C] text-sm mt-2 underline">View on Map</button>
                             </div>
                             <div className="bg-white/5 p-4 rounded-xl border border-white/10 w-full max-w-xs hover:bg-white/10 transition-colors cursor-pointer">
-                                <h5 className="font-bold flex items-center justify-center gap-2 mb-2"><MapPin className="w-4 h-4 text-[#FF9F1C]" /> Santapan Tepi Pantai</h5>
-                                <p className="text-sm opacity-60">1501 Ocean Front Walk, Venice</p>
-                                <button className="text-[#FF9F1C] text-sm mt-2 underline">Lihat di Peta</button>
+                                <h5 className="font-bold flex items-center justify-center gap-2 mb-2"><MapPin className="w-4 h-4 text-[#FF9F1C]" /> Northern Quarter</h5>
+                                <p className="text-sm opacity-60">45 Tib Street, Manchester M4 1LX</p>
+                                <button className="text-[#FF9F1C] text-sm mt-2 underline">View on Map</button>
                             </div>
                         </div>
                     </div>
@@ -66,15 +66,15 @@ const Footer = () => {
                                 <Twitter className="w-6 h-6" />
                             </a>
                         </div>
-                        <p className="text-[#FF9F1C] font-display text-xl">Ikuti keseronokan @RumahPizza</p>
+                        <p className="text-[#FF9F1C] font-display text-xl">Follow the fun @ThePizzaHome</p>
                     </div>
                 </div>
 
                 <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-sm opacity-50">
-                    <p>&copy; 2024 Rumah Pizza. Direka oleh AI.</p>
+                    <p>&copy; 2024 The Pizza Home. Designed by AI.</p>
                     <div className="flex gap-6 mt-4 md:mt-0">
-                        <a href="#" className="hover:text-white">Dasar Privasi</a>
-                        <a href="#" className="hover:text-white">Terma Perkhidmatan</a>
+                        <a href="#" className="hover:text-white">Privacy Policy</a>
+                        <a href="#" className="hover:text-white">Terms of Service</a>
                     </div>
                 </div>
             </div>

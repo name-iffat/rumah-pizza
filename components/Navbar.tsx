@@ -15,10 +15,10 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Halaman', href: '#home' },
-    { name: 'Tentang Kami', href: '#about' },
+    { name: 'Home', href: '#home' },
+    { name: 'About', href: '#about' },
     { name: 'Menu', href: '#menu' },
-    { name: 'Tempahan', href: '#reservation' },
+    { name: 'Reservations', href: '#reservation' },
   ];
 
   return (
@@ -52,7 +52,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 w-max opacity-0 group-hover:opacity-100 transition-opacity">
-              <span className="font-display text-lg text-black bg-white px-2 rounded">Rumah Pizza</span>
+              <span className="font-display text-lg text-black bg-white px-2 rounded">The Pizza Home</span>
             </div>
           </a>
 

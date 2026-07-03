@@ -21,14 +21,14 @@ const About = () => {
                         className="lg:w-1/2"
                     >
                         <h2 className="text-5xl md:text-6xl text-[#23120B] mb-6 leading-tight">
-                            Di mana Setiap Potongan <br />
-                            <span className="text-[#FF9F1C]">Sempurna Bercerita</span>
+                            Where Every Slice <br />
+                            <span className="text-[#FF9F1C]">Tells a Story</span>
                         </h2>
                         <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-                            Bahan-bahan kami segar, ketuhar kami panas, dan pasukan kami bersemangat untuk menyajikan pizza terbaik kepada anda. Daripada Margherita klasik hingga ledakan rasa yang luar biasa, setiap pizza dibuat dengan niat, keseronokan dan sedikit keajaiban pizza.
+                            Our ingredients are fresh, our ovens are hot, and our team is passionate about serving you the best pizza in Manchester. From classic Margherita to bold flavour explosions, every pizza is made with intention, joy, and a sprinkle of pizza magic.
                         </p>
                         <button className="bg-[#23120B] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#FF9F1C] hover:text-black transition-colors shadow-[4px_4px_0px_#FF9F1C]">
-                            Pesan di - GrabFood
+                            Order on – Just Eat
                         </button>
                     </motion.div>
 
